@@ -1,3 +1,6 @@
 export default function Page() {
-  return <h1>Some basic app</h1>
+  return  <figure>
+            <figcaption>Play here</figcaption>
+            <audio controls src="/media/humoresques.mp3"></audio>
+          </figure>
 }
