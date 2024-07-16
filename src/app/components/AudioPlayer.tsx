@@ -10,7 +10,7 @@ const AudioPlayer: React.FC<AudioPlayer> = ({ data }) => {
   return (
     <figure>
         <figcaption>Play here</figcaption>
-        <audio controls src="/media/humoresques.mp3"></audio>
+        <audio controls src="http://167.172.56.234:8000/stream.mp3"></audio>
     </figure>
   );
 };
