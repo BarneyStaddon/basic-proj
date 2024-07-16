@@ -13,7 +13,7 @@ interface AudioPlayer {
 
 const AudioPlayer: React.FC<AudioPlayer> = ({ data }) => {
 
-  const audioElem = useRef<HTMLAudioElement>(null);
+  const audioElem = useRef<HTMLAudioElement | null>(null);
   const [playing, setPlaying] = useState(false);
 
   const handlePlay = (play: boolean) => {
